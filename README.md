@@ -1,0 +1,1 @@
+Smart Motor Condition Monitoring System — An IoT-based industrial monitoring platform that tracks motor health in real time using sensor data, live analytics, alerts, and predictive maintenance techniques.
