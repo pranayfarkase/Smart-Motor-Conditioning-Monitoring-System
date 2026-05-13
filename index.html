@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartMotor IoT Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <link rel="stylesheet" href="src/styles/styles.css"/>
+</head>
+<body>
+<div id="root"></div>
+
+<!-- 1. Shared UI Components -->
+<script type="text/babel" src="src/components/UI.jsx"      data-presets="react"></script>
+<script type="text/babel" src="src/components/Sidebar.jsx" data-presets="react"></script>
+<script type="text/babel" src="src/components/Navbar.jsx"  data-presets="react"></script>
+
+<!-- 2. Pages -->
+<script type="text/babel" src="src/pages/Dashboard.jsx"   data-presets="react"></script>
+<script type="text/babel" src="src/pages/RealTime.jsx"    data-presets="react"></script>
+<script type="text/babel" src="src/pages/Analytics.jsx"   data-presets="react"></script>
+<script type="text/babel" src="src/pages/Alerts.jsx"      data-presets="react"></script>
+<script type="text/babel" src="src/pages/Settings.jsx"    data-presets="react"></script>
+
+<!-- 3. Root App -->
+<script type="text/babel" src="src/App.jsx" data-presets="react"></script>
+
+</body>
+</html>
